@@ -6,8 +6,8 @@ return {
 	SnacksIndent = { fg = c.white_l },
 	SnacksIndentScope = { fg = c.magenta_l },
 
-	SnacksPicker = { fg = c.white_l, bg = c.black_d },
-	SnacksPickerBorder = { fg = c.blue_l },
+	SnacksPicker = { fg = c.magenta_d, bg = c.black_d },
+	SnacksPickerBorder = { fg = c.white_l },
 	SnacksPickerTitle = { fg = c.magenta_d, bold = true },
 	SnacksPickerSelection = { bg = c.black_l, bold = true },
 	SnacksPickerTree = { fg = c.black_l },
@@ -31,9 +31,9 @@ return {
 	SnacksExplorerGitDeleted = { fg = c.magenta_d },
 
 	SnacksInput = { bg = c.black_d },
-	SnacksInputBorder = { fg = c.blue_l },
+	SnacksInputBorder = { fg = c.white_l },
 
-	Directory = { fg = c.magenta_d },
+	Directory = { fg = c.white_l },
 	DevIconFolder = { fg = c.magenta_d },
 	DevIconDefaultFolder = { fg = c.magenta_d },
 }

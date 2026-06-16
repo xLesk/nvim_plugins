@@ -30,7 +30,7 @@ return {
 	["@keyword.operator"] = { fg = c.magenta_d },
 	["@keyword.import"] = { fg = c.magenta_d },
 	["@keyword.conditional"] = { fg = c.magenta_d },
-	["@keyword.repeat"] = { fg = c.red },
+	["@keyword.repeat"] = { fg = c.magenta_d },
 
 	-- Types
 	["@type"] = { fg = c.magenta_l },
@@ -55,7 +55,7 @@ return {
 	["@operator"] = { fg = c.white_l },
 
 	-- Properties / Fields
-	["@property"] = { fg = c.blue_d },
+	["@property"] = { fg = c.blue_l },
 	["@field"] = { fg = c.white_d },
 
 	-- Modules / Namespaces
