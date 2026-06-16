@@ -1,0 +1,18 @@
+return {
+	bg_d = "#282828",
+	bg_l = "#929374",
+	red_d = "#cc241d",
+	red_l = "#fb4934",
+	green_d = "#98971a",
+	green_l = "#b8bb26",
+	yellow_d = "#d79921",
+	yellow_l = "#fabd2f",
+	blue_d = "#458588",
+	blue_l = "#83a598",
+	magenta_d = "#b16286",
+	magenta_l = "#d3869b",
+	cyan_d = "#689d6a",
+	cyan_l = "#8ec07c",
+	white_d = "#a89984",
+	white_l = "#ebdbb2",
+}
