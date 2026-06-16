@@ -1,8 +1,8 @@
-local c = require("ice.nvim.lua.ice.palette")
+local c = require("ice.palette")
 
 return {
 	Normal = {
-		fg = c.fg,
-		bg = c.bg,
+		fg = c.white_l,
+		bg = c.black_d,
 	},
 }

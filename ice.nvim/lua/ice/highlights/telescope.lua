@@ -1,4 +1,4 @@
-local c = require("ice.nvim.lua.ice.palette")
+local c = require("ice.palette")
 
 return {
 	TelescopeNormal = {
@@ -7,5 +7,6 @@ return {
 
 	TelescopeBorder = {
 		fg = c.white_l,
+		bg = c.black_d,
 	},
 }

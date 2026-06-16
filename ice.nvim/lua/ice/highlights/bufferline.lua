@@ -1,4 +1,4 @@
-local c = require("ice.nvim.lua.ice.palette")
+local c = require("ice.palette")
 
 return {
 	Normal = {
@@ -16,7 +16,7 @@ return {
 	},
 
 	CursorLineNr = {
-		fg = c.purple_l,
+		fg = c.magenta_d,
 		bold = true,
 	},
 }

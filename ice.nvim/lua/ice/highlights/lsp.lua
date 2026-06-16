@@ -1,19 +1,19 @@
-local c = require("ice.nvim.lua.ice.palette")
+local c = require("ice.palette")
 
 return {
 	DiagnosticError = {
-		fg = c.red,
+		fg = c.red_d,
 	},
 
 	DiagnosticWarn = {
-		fg = c.orange,
+		fg = c.red_l,
 	},
 
 	DiagnosticInfo = {
-		fg = c.blue,
+		fg = c.blue_l,
 	},
 
 	DiagnosticHint = {
-		fg = c.green,
+		fg = c.green_l,
 	},
 }

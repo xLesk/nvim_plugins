@@ -1,4 +1,4 @@
-local c = require("ice.nvim.lua.ice.palette")
+local c = require("ice.palette")
 
 return {
 	GitSignsAdd = {
