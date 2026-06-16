@@ -2,14 +2,20 @@ local M = {}
 
 function M.setup()
 	local modules = {
-		require("ice.nvim.lua.ice.highlights.core"),
-		require("ice.nvim.lua.ice.highlights.treesitter"),
-		require("ice.nvim.lua.ice.highlights.lsp"),
-		require("ice.nvim.lua.ice.highlights.telescope"),
-		require("ice.nvim.lua.ice.highlights.bufferline"),
-		require("ice.nvim.lua.ice.highlights.lualine"),
-		require("ice.nvim.lua.ice.highlights.gitsigns"),
-		require("ice.nvim.lua.ice.highlights.neotree"),
+		require("ice.highlights.bufferline"),
+		require("ice.highlights.core"),
+		require("ice.highlights.gitsigns"),
+		require("ice.highlights.lazy"),
+		require("ice.highlights.lsp"),
+		require("ice.highlights.lualine"),
+		require("ice.highlights.mason"),
+		require("ice.highlights.neotree"),
+		require("ice.highlights.noice"),
+		require("ice.highlights.rainbow"),
+		require("ice.highlights.snacks"),
+		require("ice.highlights.telescope"),
+		require("ice.highlights.treesitter"),
+		require("ice.highlights.whichkey"),
 	}
 
 	for _, mod in ipairs(modules) do

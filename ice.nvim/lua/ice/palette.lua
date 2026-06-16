@@ -1,6 +1,6 @@
 return {
-	bg_d = "#282828",
-	bg_l = "#929374",
+	black_d = "#282828",
+	black_l = "#929374",
 	red_d = "#cc241d",
 	red_l = "#fb4934",
 	green_d = "#98971a",
